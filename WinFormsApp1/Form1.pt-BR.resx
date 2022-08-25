@@ -1,0 +1,333 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bt_Salvar.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gb_Jogadores.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="gb_Jogadores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 33</value>
+  </data>
+  <data name="gb_Jogadores.Text" xml:space="preserve">
+    <value>JOGADORES</value>
+  </data>
+  <data name="bt1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bt1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <data name="bt9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <data name="bt3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <data name="bt8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <data name="bt5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <data name="bt4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <data name="bt7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="bt2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
+  </data>
+  <data name="bt2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 69</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 280</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 80</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 15</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>JOGADOR 1 JOGA COM X</value>
+  </data>
+  <data name="lb_jogador.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_jogador.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_jogador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 54</value>
+  </data>
+  <data name="lb_jogador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 15</value>
+  </data>
+  <data name="lb_jogador.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lb_jogador.Text" xml:space="preserve">
+    <value>JOGADOR 1 JOGA COM X</value>
+  </data>
+  <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="radioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 35</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 35</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 80</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 23</value>
+  </data>
+  <data name="tb_Jogador1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 42</value>
+  </data>
+  <data name="tb_Jogador1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 23</value>
+  </data>
+  <data name="bt_Sair.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_Sair.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="bt_Iniciar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_Iniciar.Text" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="bt_Reiniciar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_Reiniciar.Text" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gb_Opcoes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="gb_Opcoes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 82</value>
+  </data>
+  <data name="gb_Opcoes.Text" xml:space="preserve">
+    <value>OPÇÕES</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>JOGADOR 2 JOGA COM O</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>JOGADOR 1 JOGA COM X</value>
+  </data>
+  <data name="gb_Placar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="gb_Placar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 33</value>
+  </data>
+  <data name="gb_Placar.Text" xml:space="preserve">
+    <value>PLACAR</value>
+  </data>
+  <data name="gb_Empate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="gb_Empate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 33</value>
+  </data>
+  <data name="gb_Empate.Text" xml:space="preserve">
+    <value>EMPATES</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 206</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>551, 516</value>
+  </data>
+</root>
