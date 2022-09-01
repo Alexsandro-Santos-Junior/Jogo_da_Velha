@@ -57,12 +57,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bt_Salvar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 223</value>
+  </data>
   <data name="bt_Salvar.Text" xml:space="preserve">
     <value>Salvar</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="gb_Jogadores.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="gb_Jogadores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
   </data>
   <data name="gb_Jogadores.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 33</value>
@@ -70,10 +76,29 @@
   <data name="gb_Jogadores.Text" xml:space="preserve">
     <value>JOGADORES</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb_Contador.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_Contador.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 20.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb_Contador.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_Contador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 84</value>
+  </data>
+  <data name="lb_Contador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 32</value>
+  </data>
+  <data name="lb_Contador.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="bt1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bernard MT Condensed, 45pt, style=Bold</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="bt1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -88,6 +113,9 @@
   </data>
   <data name="bt9.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 69</value>
+  </data>
+  <data name="bt6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 45pt, style=Bold</value>
   </data>
   <data name="bt6.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 69</value>
@@ -143,87 +171,98 @@
   <data name="bt2.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 69</value>
   </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 250</value>
+  </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>524, 280</value>
+    <value>524, 254</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tb_Jogador2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 144</value>
   </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 80</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 15</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>JOGADOR 1 JOGA COM X</value>
-  </data>
-  <data name="lb_jogador.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lb_jogador.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_jogador.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 54</value>
-  </data>
-  <data name="lb_jogador.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 15</value>
-  </data>
-  <data name="lb_jogador.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="lb_jogador.Text" xml:space="preserve">
-    <value>JOGADOR 1 JOGA COM X</value>
-  </data>
-  <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bernard MT Condensed, 20pt, style=Bold</value>
-  </data>
-  <data name="radioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 35</value>
-  </data>
-  <data name="radioButton2.Text" xml:space="preserve">
-    <value>O</value>
-  </data>
-  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bernard MT Condensed, 20pt</value>
-  </data>
-  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 35</value>
-  </data>
-  <data name="radioButton1.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 80</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 23</value>
+  <data name="tb_Jogador2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 23</value>
   </data>
   <data name="tb_Jogador1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 42</value>
+    <value>3, 99</value>
   </data>
   <data name="tb_Jogador1.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 23</value>
   </data>
+  <data name="lb_Jogador2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_Jogador2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 147</value>
+  </data>
+  <data name="lb_Jogador2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="lb_Jogador2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lb_Jogador2.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lb_Jogador2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lb_Jogador1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_Jogador1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 102</value>
+  </data>
+  <data name="lb_Jogador1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="lb_Jogador1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lb_Jogador1.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lb_Jogador1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="rb_O.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_O.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="rb_O.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rb_O.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 223</value>
+  </data>
+  <data name="rb_O.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 35</value>
+  </data>
+  <data name="rb_O.Text" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="rb_X.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bernard MT Condensed, 20pt</value>
+  </data>
+  <data name="rb_X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 223</value>
+  </data>
+  <data name="rb_X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 35</value>
+  </data>
+  <data name="rb_X.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
   <data name="bt_Sair.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="bt_Sair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 223</value>
   </data>
   <data name="bt_Sair.Text" xml:space="preserve">
     <value>Sair</value>
@@ -231,11 +270,17 @@
   <data name="bt_Iniciar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="bt_Iniciar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 223</value>
+  </data>
   <data name="bt_Iniciar.Text" xml:space="preserve">
     <value>Iniciar</value>
   </data>
   <data name="bt_Reiniciar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="bt_Reiniciar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 223</value>
   </data>
   <data name="bt_Reiniciar.Text" xml:space="preserve">
     <value>Reiniciar</value>
@@ -252,59 +297,41 @@
   <data name="label5.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lb_Pjogador2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lb_Pjogador2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lb_Pjogador2.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 15</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
+  <data name="lb_Pjogador2.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lb_Pjogador1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lb_Pjogador1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lb_Pjogador1.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 15</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
+  <data name="lb_Pjogador1.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="gb_Opcoes.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bernard MT Condensed, 20pt, style=Bold</value>
+  </data>
+  <data name="gb_Opcoes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 173</value>
   </data>
   <data name="gb_Opcoes.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 82</value>
   </data>
   <data name="gb_Opcoes.Text" xml:space="preserve">
     <value>OPÇÕES</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 15</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>JOGADOR 2 JOGA COM O</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 15</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>JOGADOR 1 JOGA COM X</value>
   </data>
   <data name="gb_Placar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bernard MT Condensed, 20pt, style=Bold</value>
@@ -324,8 +351,11 @@
   <data name="gb_Empate.Text" xml:space="preserve">
     <value>EMPATES</value>
   </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 12</value>
+  </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>527, 206</value>
+    <value>527, 261</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>551, 516</value>

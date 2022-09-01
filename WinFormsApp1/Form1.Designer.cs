@@ -34,6 +34,7 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.gb_Jogadores = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lb_Contador = new System.Windows.Forms.Label();
             this.bt1 = new System.Windows.Forms.Button();
             this.bt9 = new System.Windows.Forms.Button();
             this.bt6 = new System.Windows.Forms.Button();
@@ -44,23 +45,21 @@
             this.bt7 = new System.Windows.Forms.Button();
             this.bt2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_Jogador2 = new System.Windows.Forms.TextBox();
             this.tb_Jogador1 = new System.Windows.Forms.TextBox();
+            this.lb_Jogador2 = new System.Windows.Forms.Label();
+            this.lb_Jogador1 = new System.Windows.Forms.Label();
+            this.rb_O = new System.Windows.Forms.RadioButton();
+            this.rb_X = new System.Windows.Forms.RadioButton();
             this.bt_Sair = new System.Windows.Forms.Button();
             this.bt_Iniciar = new System.Windows.Forms.Button();
             this.bt_Reiniciar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lb_Pjogador2 = new System.Windows.Forms.Label();
+            this.lb_Pjogador1 = new System.Windows.Forms.Label();
             this.gb_Opcoes = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.gb_Placar = new System.Windows.Forms.GroupBox();
             this.gb_Empate = new System.Windows.Forms.GroupBox();
-            this.lb_jogador = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -91,6 +90,7 @@
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.lb_Contador);
             this.panel1.Controls.Add(this.bt1);
             this.panel1.Controls.Add(this.bt9);
             this.panel1.Controls.Add(this.bt6);
@@ -101,108 +101,135 @@
             this.panel1.Controls.Add(this.bt7);
             this.panel1.Controls.Add(this.bt2);
             this.panel1.Name = "panel1";
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // lb_Contador
+            // 
+            resources.ApplyResources(this.lb_Contador, "lb_Contador");
+            this.lb_Contador.Name = "lb_Contador";
+            this.lb_Contador.Click += new System.EventHandler(this.label1_Click);
             // 
             // bt1
             // 
             resources.ApplyResources(this.bt1, "bt1");
             this.bt1.Name = "bt1";
             this.bt1.UseVisualStyleBackColor = true;
+            this.bt1.Click += new System.EventHandler(this.bt1_Click);
             // 
             // bt9
             // 
             resources.ApplyResources(this.bt9, "bt9");
             this.bt9.Name = "bt9";
             this.bt9.UseVisualStyleBackColor = true;
+            this.bt9.Click += new System.EventHandler(this.bt9_Click);
             // 
             // bt6
             // 
             resources.ApplyResources(this.bt6, "bt6");
             this.bt6.Name = "bt6";
             this.bt6.UseVisualStyleBackColor = true;
+            this.bt6.Click += new System.EventHandler(this.bt6_Click);
             // 
             // bt3
             // 
             resources.ApplyResources(this.bt3, "bt3");
             this.bt3.Name = "bt3";
             this.bt3.UseVisualStyleBackColor = true;
+            this.bt3.Click += new System.EventHandler(this.bt3_Click);
             // 
             // bt8
             // 
             resources.ApplyResources(this.bt8, "bt8");
             this.bt8.Name = "bt8";
             this.bt8.UseVisualStyleBackColor = true;
+            this.bt8.Click += new System.EventHandler(this.bt8_Click);
             // 
             // bt5
             // 
             resources.ApplyResources(this.bt5, "bt5");
             this.bt5.Name = "bt5";
             this.bt5.UseVisualStyleBackColor = true;
+            this.bt5.Click += new System.EventHandler(this.bt5_Click);
             // 
             // bt4
             // 
             resources.ApplyResources(this.bt4, "bt4");
             this.bt4.Name = "bt4";
             this.bt4.UseVisualStyleBackColor = true;
+            this.bt4.Click += new System.EventHandler(this.bt4_Click);
             // 
             // bt7
             // 
             resources.ApplyResources(this.bt7, "bt7");
             this.bt7.Name = "bt7";
             this.bt7.UseVisualStyleBackColor = true;
+            this.bt7.Click += new System.EventHandler(this.bt7_Click);
             // 
             // bt2
             // 
             resources.ApplyResources(this.bt2, "bt2");
             this.bt2.Name = "bt2";
             this.bt2.UseVisualStyleBackColor = true;
+            this.bt2.Click += new System.EventHandler(this.bt2_Click);
             // 
             // panel2
             // 
             resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.lb_jogador);
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton1);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.tb_Jogador2);
             this.panel2.Controls.Add(this.tb_Jogador1);
+            this.panel2.Controls.Add(this.lb_Jogador2);
+            this.panel2.Controls.Add(this.lb_Jogador1);
+            this.panel2.Controls.Add(this.rb_O);
+            this.panel2.Controls.Add(this.rb_X);
             this.panel2.Controls.Add(this.bt_Sair);
             this.panel2.Controls.Add(this.bt_Iniciar);
             this.panel2.Controls.Add(this.bt_Reiniciar);
             this.panel2.Controls.Add(this.bt_Salvar);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.lb_Pjogador2);
+            this.panel2.Controls.Add(this.lb_Pjogador1);
             this.panel2.Controls.Add(this.gb_Opcoes);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.gb_Placar);
             this.panel2.Controls.Add(this.gb_Empate);
             this.panel2.Controls.Add(this.gb_Jogadores);
             this.panel2.Name = "panel2";
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // radioButton2
+            // tb_Jogador2
             // 
-            resources.ApplyResources(this.radioButton2, "radioButton2");
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.TabStop = true;
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            resources.ApplyResources(this.radioButton1, "radioButton1");
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.TabStop = true;
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            resources.ApplyResources(this.tb_Jogador2, "tb_Jogador2");
+            this.tb_Jogador2.Name = "tb_Jogador2";
+            this.tb_Jogador2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // tb_Jogador1
             // 
             resources.ApplyResources(this.tb_Jogador1, "tb_Jogador1");
             this.tb_Jogador1.Name = "tb_Jogador1";
+            this.tb_Jogador1.TextChanged += new System.EventHandler(this.tb_Jogador1_TextChanged);
+            // 
+            // lb_Jogador2
+            // 
+            resources.ApplyResources(this.lb_Jogador2, "lb_Jogador2");
+            this.lb_Jogador2.Name = "lb_Jogador2";
+            // 
+            // lb_Jogador1
+            // 
+            resources.ApplyResources(this.lb_Jogador1, "lb_Jogador1");
+            this.lb_Jogador1.Name = "lb_Jogador1";
+            // 
+            // rb_O
+            // 
+            resources.ApplyResources(this.rb_O, "rb_O");
+            this.rb_O.Name = "rb_O";
+            this.rb_O.TabStop = true;
+            this.rb_O.UseVisualStyleBackColor = true;
+            // 
+            // rb_X
+            // 
+            resources.ApplyResources(this.rb_X, "rb_X");
+            this.rb_X.Name = "rb_X";
+            this.rb_X.TabStop = true;
+            this.rb_X.UseVisualStyleBackColor = true;
             // 
             // bt_Sair
             // 
@@ -223,37 +250,28 @@
             resources.ApplyResources(this.bt_Reiniciar, "bt_Reiniciar");
             this.bt_Reiniciar.Name = "bt_Reiniciar";
             this.bt_Reiniciar.UseVisualStyleBackColor = true;
+            this.bt_Reiniciar.Click += new System.EventHandler(this.bt_Reiniciar_Click);
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
             // 
-            // label4
+            // lb_Pjogador2
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.lb_Pjogador2, "lb_Pjogador2");
+            this.lb_Pjogador2.Name = "lb_Pjogador2";
             // 
-            // label3
+            // lb_Pjogador1
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.lb_Pjogador1, "lb_Pjogador1");
+            this.lb_Pjogador1.Name = "lb_Pjogador1";
             // 
             // gb_Opcoes
             // 
             resources.ApplyResources(this.gb_Opcoes, "gb_Opcoes");
             this.gb_Opcoes.Name = "gb_Opcoes";
             this.gb_Opcoes.TabStop = false;
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
             // 
             // gb_Placar
             // 
@@ -267,16 +285,6 @@
             this.gb_Empate.Name = "gb_Empate";
             this.gb_Empate.TabStop = false;
             // 
-            // lb_jogador
-            // 
-            resources.ApplyResources(this.lb_jogador, "lb_jogador");
-            this.lb_jogador.Name = "lb_jogador";
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -286,6 +294,7 @@
             this.Name = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -302,17 +311,15 @@
         private Button bt_Iniciar;
         private Button bt_Reiniciar;
         private Label label5;
-        private Label label4;
-        private Label label3;
+        private Label lb_Pjogador2;
+        private Label lb_Pjogador1;
         private GroupBox gb_Opcoes;
-        private Label label2;
-        private Label label1;
         private GroupBox gb_Placar;
         private GroupBox gb_Empate;
         private Button bt_Sair;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private TextBox textBox2;
+        private RadioButton rb_O;
+        private RadioButton rb_X;
+        private TextBox tb_Jogador2;
         private TextBox tb_Jogador1;
         private Button bt9;
         private Button bt6;
@@ -323,7 +330,8 @@
         private Button bt7;
         private Button bt2;
         private Button bt1;
-        private Label label7;
-        private Label lb_jogador;
+        private Label lb_Jogador2;
+        private Label lb_Jogador1;
+        private Label lb_Contador;
     }
 }
